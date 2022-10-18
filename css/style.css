@@ -7,6 +7,7 @@
     --background-color:#2F303A;
     --accent-white-color:#FFFFFF;
     --background-button: #F5F4FA;
+    --contact-color:rgba(255, 255, 255, 0.6);
 }
 /*цвет основного текста #212121*/
 /*вторичный цвет текста #757575*/
@@ -31,7 +32,7 @@ font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19px;
     letter-spacing: 0.03em;
     color: var(--titile-text-color);
     text-decoration: none;
@@ -48,7 +49,7 @@ font-family: 'Raleway';
     color: var(--titile-text-color);
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,14;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
         
@@ -62,10 +63,11 @@ font-family: 'Raleway';
 .contact{
 font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
     text-decoration: none;
+    font-style: normal;
    
 }
 .contact:focus,
@@ -85,7 +87,7 @@ font-weight: 500;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        line-height: 1,87;
+        line-height: 1.87;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
@@ -103,7 +105,7 @@ font-weight: 500;
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
-        line-height: 1,36;
+        line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -118,21 +120,21 @@ font-weight: 500;
 .advan-title{
     font-weight: 700;
         font-size: 14px;
-        line-height: 1,14;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 .advan-text{
     font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71px;
         letter-spacing: 0.03em;
         color:var(--text-color) ;
 }
 .work-title{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1,16;
+        line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
 
@@ -146,7 +148,7 @@ font-weight: 500;
 .command-title{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1,16;
+        line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
 }
@@ -162,13 +164,13 @@ font-weight: 500;
 .command-people{
     font-weight: 500;
         font-size: 16px;
-        line-height: 1,18;
+        line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
 }
 .command-position{
         font-size: 16px;
-        line-height: 1,18;
+        line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--text-color);
@@ -177,13 +179,15 @@ font-weight: 500;
 .end{
     height: 252px;
     background-color: var(--titile-text-color);
+    padding-bottom: 60px;
 }
+
 .end-logo{
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 1,19;
+        line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--accent-white-color);
         text-decoration: none;
@@ -191,11 +195,12 @@ font-weight: 500;
 .map{
     font-weight: 400;
         font-size: 14px;
-        line-height: 1,71;
+        line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--accent-white-color);
         text-decoration: none;
         background-color: F5F4FA;
+        font-style: normal;
 }
 
 
@@ -222,7 +227,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     background-color: var(--background-button);
     border: none;
@@ -247,10 +252,15 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 }
   .photo-text{
         font-size: 16px;
-        line-height: 1,87;
+        line-height: 1.87;
         letter-spacing: 0.03em;
         color: var(--text-color);
   }  
   .photo-link{
     text-decoration: none ;
   }
+  .contact-footer{
+    color: var(--contact-color);
+    font-style: normal;
+  }
+       
