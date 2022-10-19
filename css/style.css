@@ -56,7 +56,9 @@ font-family: 'Raleway';
 }
 .site-nav-link:focus,
 .site-nav-link:hover
-{color: var(--accent-color);}
+{
+    color: var(--accent-color);}
+
 .contacts{
     list-style: none;
 }
@@ -72,7 +74,8 @@ font-weight: 500;
 }
 .contact:focus,
 .contact:hover
-{color: var(--accent-color);
+{
+    color: var(--accent-color);
     }
 
 .bisnes{
@@ -98,8 +101,9 @@ font-weight: 500;
         border: none;
         padding: 10px 32px;
         cursor: pointer;
-            
+                  
 }
+
 .bisnes-title{
     font-family: 'Roboto';
         font-style: normal;
@@ -262,5 +266,18 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
   .contact-footer{
     color: var(--contact-color);
     font-style: normal;
+    text-decoration: none;
   }
-       
+.contact-footer:focus,
+.contact-footer:hover {
+color: var(--accent-color);
+           }
+
+.map:focus,
+.map:hover {
+color: var(--accent-color);
+                   }
+
+.active{
+   color: var(--accent-color); 
+}                   
